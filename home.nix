@@ -1,6 +1,6 @@
 { pkgs, globalVars, ... }:
 {
-  imports = [ ../vim ];
+  imports = [ ./vim ];
 
   # add cool packages you want to install
   # see https://search.nixos.org/packages for package names
