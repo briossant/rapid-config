@@ -2,7 +2,10 @@
 
 #### READ EVERYTHING IF YOU WANT IT TO WORK
 
-## Config
+Add autocompletion, error checking, auto formatting and a lot more to your vim
+config.
+
+## Configuration
 
 ### Necessary
 
@@ -12,9 +15,9 @@ Add your username in ```flake.nix```, you can also choose the darkmode in there.
 
 You can alse add extra packages in ```home.nix```.
 
-The vimrc can be change in ```vim/vimrc``` and in ```vim/defaul.nix```.
+The vimrc can be change in ```vim/vimrc``` and in ```vim/default.nix```.
 
-## Install
+## Installation
 
 ### General
 
