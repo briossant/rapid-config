@@ -56,6 +56,9 @@
   };
 
   home.packages = with pkgs; [
+    # for coc-nvim
+    nodejs
+
     # font for vim-airline
     powerline-fonts
 
