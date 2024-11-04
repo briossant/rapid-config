@@ -1,30 +1,42 @@
 # VITE MON VIM
 
+#### READ EVERYTHING IF YOU WANT IT TO WORK
+
+## Config
+
+### Necessary
+
+Add your username in ```flake.nix```, you can also choose the darkmode in there.
+
+### Extra
+
+You can alse add extra packages in ```home.nix```.
+
+The vimrc can be change in ```vim/vimrc``` and in ```vim/defaul.nix```.
+
 ## Install
 
-### general
+### General
 
-clone this repository then
-
-delete your old ```.vimrc```, ```coc-config.json``` and ```.clang-format```:
+Delete your old ```.vimrc```, ```coc-config.json``` and ```.clang-format```:
 ```
 rm -f ~/.vimrc ~/.vim/coc-settings.json ~/.clang-format
 ```
 
-build the config with
+Build the config with
 ```
 nix run rapid-config#homeConfigurations.vim.activationPackage
 ```
 
-#### on the PIE
+#### On the PIE
 
 /!\ you need to clone the repository in your afs /!\
 
-on the pie your config is reset each time you login
+On the pie your config is reset each time you login,
+you will need to add the build command in the ```~/afs/.confs/install.sh```
+script.
 
-you will need to add the build command in your ```~/afs/.confs/install.sh```
-
-don't forget to update the path, for example if you clone at the root of the
+Don't forget to update the path, for example if you cloned at the root of the
 afs:
 
 ```
