@@ -28,7 +28,7 @@ rm -f ~/.vimrc ~/.vim/coc-settings.json ~/.clang-format
 
 Build the config with
 ```
-nix run rapid-config#homeConfigurations.vim.activationPackage
+nix run .#homeConfigurations.vim.activationPackage
 ```
 
 #### On the PIE

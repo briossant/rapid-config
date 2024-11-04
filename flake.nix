@@ -33,7 +33,7 @@
       homeConfigurations = {
         vim = mkHome {
           modules = [
-            ./users/briossant/home.nix
+            ./home.nix
           ];
         };
       };
